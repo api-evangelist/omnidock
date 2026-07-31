@@ -1,8 +1,27 @@
 aid: omnidock
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/omnidock.png
 name: Omnidock
-description: 'Omnidock is a company surfaced as a portfolio company of hv-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: marketplace; ai-enterprise-software. This profile
-  is a lead awaiting the enrichment pipeline.'
+description: 'Omnidock is a merchant-of-record platform that streamlines multi-marketplace
+  expansion for online sellers. The service lets merchants launch and sell products
+  across multiple online marketplaces using pre-vetted seller accounts, while Omnidock
+  acts as the merchant of record and handles the underlying transaction processing,
+  payments, and compliance. The stated goal is to remove the operational complexity
+  of expanding onto many marketplaces at once and make multi-marketplace selling
+  effortless. Omnidock was surfaced as a portfolio company of HV Capital and added to
+  the API Evangelist network; as of this enrichment pass it publishes only a marketing
+  landing page and exposes no public API, developer documentation, or machine-readable
+  surface.'
 url: https://raw.githubusercontent.com/api-evangelist/omnidock/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,11 +31,29 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Marketplace; Ai Enterprise Software
+- Marketplace
+- E-Commerce
+- Merchant Of Record
+- Multi-Marketplace
+- Cross-Border Commerce
+- Seller Enablement
+- Payments
+- AI Enterprise Software
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/omnidock-domain-security.yml
+- type: Website
+  url: https://omnidock.com
+  name: Omnidock website
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
